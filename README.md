@@ -23,7 +23,7 @@ Notice that you can go to definition (`gd`) on `Border.rounded` and `Random.int`
 This is how it looks in `nvim`:
 
 
-[[not-working-nvim.png|not working in nvim]]
+![][./not-working-nvim.png|not working in nvim]
 
 This is the lsp.log output (when using `gd`):
 
