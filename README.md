@@ -23,7 +23,7 @@ Notice that you can go to definition (`gd`) on `Border.rounded` and `Random.int`
 This is how it looks in `nvim`:
 
 
-![][./not-working-nvim.png|not working in nvim]
+![Not working in nvim](not-working-nvim.png)
 
 This is the lsp.log output (when using `gd`):
 
@@ -41,4 +41,4 @@ This is the lsp.log output (when using `gd`):
 
 However, same version of `elm-language-server` works in `VSCode`
 
-[[working-vscode.png|working in VSCode]]
+![Working in VSCode](working-vscode.png)
