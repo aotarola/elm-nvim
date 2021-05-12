@@ -17,8 +17,8 @@ border =
 -- vim.lsp.buf.definition() works on `Random.int`
 
 
-sigleDigit : Random.Generator Int
-sigleDigit =
+singleDigit : Random.Generator Int
+singleDigit =
     Random.int 0 9
 
 

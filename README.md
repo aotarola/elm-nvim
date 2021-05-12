@@ -9,11 +9,19 @@ A small repository used to reproduce a lsp bug in neovim with [elm-language-serv
 $ npm install -g @elm-tooling/elm-language-server elm-format elm-test
 
 ```
-2. copy the provided minimal nvim config (be sure to **backup** yours before)
+1. clone this repo
+```sh
+$ git clone https://github.com/aotarola/elm-nvim.git
+```
+1. compile the source
+```sh
+$ elm make src/Main.elm
+```
+1. copy the provided minimal nvim config (be sure to **backup** yours before)
 ```sh
 $ cp init.lua ~/.config/nvim
 ```
-2. open `src/Main.elm` via `nvim` (using the minimal config)
+1. open `src/Main.elm` via `nvim` (using the minimal config)
 ```sh
 $ nvim src/Main.elm
 ```
