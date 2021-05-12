@@ -1,4 +1,4 @@
-A small repository used to reproduce a lsp bug in neovim with [elm-language-server][elmls]
+A small repository used to reproduce a lsp bug ([#901](https://github.com/neovim/nvim-lspconfig/issues/901)) in neovim with [elm-language-server][elmls]
 
 [elmls]: https://github.com/elm-tooling/elm-language-server
 
